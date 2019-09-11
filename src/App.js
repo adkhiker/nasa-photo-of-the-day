@@ -1,13 +1,32 @@
 import React from "react";
 import "./App.css";
 
+import styled from "styled-components";
+
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+import DatePick from "./components/DatePick";
+import Footer from "./components/Footer";
+
+const BodyContainer = styled.div`
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;
+`;
+
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Header />
+      <BodyContainer>
+        <Intro />
+        <DatePick />
+      </BodyContainer>{" "}
+      <Footer />{" "}
     </div>
   );
 }
