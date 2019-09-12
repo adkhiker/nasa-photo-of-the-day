@@ -78,7 +78,7 @@ function DatePick() {
   }
 
   return (
-    <div className="your-choice-container">
+    <div className="pickDate">
       <MediaCard media={media} />
       <Form onSubmit={handleSubmit}>
          <label htmlFor="dateInput">Date:</label>

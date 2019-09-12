@@ -25,7 +25,7 @@ function Intro() {
         Thank you for joining us on a visual tour of the cosmos, brought to you
         by NASA and Greg Poirier, an innovative software engineer. Here you'll
         see NASA's astronomy image of the day. You may pick an earlier date to
-        view an image or video from that date.
+        view an image or a video from that date.
       </Paragraph>
     </Container>
   );
