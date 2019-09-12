@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-//import myImage from 'image.png';
+import myImage from './image.png';
 
 const HeaderDiv = styled.header`
   //width: 100%;
@@ -12,7 +12,7 @@ const HeaderDiv = styled.header`
   justify-content: center;
   align-items: center;
   font-family: "Audiowide", cursive;
-  
+  background-image: url(${myImage});
 `;
 
 const Title = styled.div`
